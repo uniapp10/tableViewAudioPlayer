@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5307C6F11DFD362B00EFC93B /* 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5307C6F01DFD362B00EFC93B /* 2.mp3 */; };
+		5307C6F31DFD364C00EFC93B /* 3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5307C6F21DFD364C00EFC93B /* 3.mp3 */; };
+		5307C6F61DFD3B6D00EFC93B /* ZDPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5307C6F51DFD3B6D00EFC93B /* ZDPlayer.m */; };
+		53BD7A8C1DF9096300E04950 /* ZDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BD7A8B1DF9096300E04950 /* ZDTableViewCell.m */; };
+		53BD7A8F1DF90A0900E04950 /* ZDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53BD7A8E1DF90A0900E04950 /* ZDTableViewController.m */; };
+		53C8D6A41DEBFD3B00F7060D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C8D6A31DEBFD3B00F7060D /* main.m */; };
+		53C8D6A71DEBFD3B00F7060D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C8D6A61DEBFD3B00F7060D /* AppDelegate.m */; };
+		53C8D6AD1DEBFD3B00F7060D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C8D6AB1DEBFD3B00F7060D /* Main.storyboard */; };
+		53C8D6AF1DEBFD3B00F7060D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53C8D6AE1DEBFD3B00F7060D /* Assets.xcassets */; };
+		53C8D6B21DEBFD3B00F7060D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53C8D6B01DEBFD3B00F7060D /* LaunchScreen.storyboard */; };
+		53C8D6BA1DEC0EE500F7060D /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 53C8D6B91DEC0EE500F7060D /* 1.mp3 */; };
+		8B5C7F966382DEBC5E076182 /* libPods-UIProgressView的使用.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F673E19B257E3A51A185A048 /* libPods-UIProgressView的使用.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2234FD4133DADDBA2FB6D2D4 /* Pods-UIProgressView的使用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIProgressView的使用.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIProgressView的使用/Pods-UIProgressView的使用.release.xcconfig"; sourceTree = "<group>"; };
+		5307C6F01DFD362B00EFC93B /* 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 2.mp3; sourceTree = "<group>"; };
+		5307C6F21DFD364C00EFC93B /* 3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3.mp3; sourceTree = "<group>"; };
+		5307C6F41DFD3B6D00EFC93B /* ZDPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDPlayer.h; sourceTree = "<group>"; };
+		5307C6F51DFD3B6D00EFC93B /* ZDPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDPlayer.m; sourceTree = "<group>"; };
+		53BD7A8A1DF9096300E04950 /* ZDTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDTableViewCell.h; sourceTree = "<group>"; };
+		53BD7A8B1DF9096300E04950 /* ZDTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDTableViewCell.m; sourceTree = "<group>"; };
+		53BD7A8D1DF90A0900E04950 /* ZDTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDTableViewController.h; sourceTree = "<group>"; };
+		53BD7A8E1DF90A0900E04950 /* ZDTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDTableViewController.m; sourceTree = "<group>"; };
+		53C8D69F1DEBFD3B00F7060D /* UIProgressView的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIProgressView的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C8D6A31DEBFD3B00F7060D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53C8D6A51DEBFD3B00F7060D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53C8D6A61DEBFD3B00F7060D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53C8D6AC1DEBFD3B00F7060D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53C8D6AE1DEBFD3B00F7060D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53C8D6B11DEBFD3B00F7060D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53C8D6B31DEBFD3B00F7060D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53C8D6B91DEC0EE500F7060D /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
+		EEE91525F685F822BAC55CFB /* Pods-UIProgressView的使用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIProgressView的使用.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIProgressView的使用/Pods-UIProgressView的使用.debug.xcconfig"; sourceTree = "<group>"; };
+		F673E19B257E3A51A185A048 /* libPods-UIProgressView的使用.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UIProgressView的使用.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C8D69C1DEBFD3B00F7060D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B5C7F966382DEBC5E076182 /* libPods-UIProgressView的使用.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C8D6961DEBFD3B00F7060D = {
+			isa = PBXGroup;
+			children = (
+				53C8D6A11DEBFD3B00F7060D /* UIProgressView的使用 */,
+				53C8D6A01DEBFD3B00F7060D /* Products */,
+				D4173DB2AA64B81E380EE3F1 /* Pods */,
+				627B24E27199D2E785FE65EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53C8D6A01DEBFD3B00F7060D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C8D69F1DEBFD3B00F7060D /* UIProgressView的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C8D6A11DEBFD3B00F7060D /* UIProgressView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				53C8D6A51DEBFD3B00F7060D /* AppDelegate.h */,
+				53C8D6A61DEBFD3B00F7060D /* AppDelegate.m */,
+				53BD7A8D1DF90A0900E04950 /* ZDTableViewController.h */,
+				53BD7A8E1DF90A0900E04950 /* ZDTableViewController.m */,
+				53BD7A8A1DF9096300E04950 /* ZDTableViewCell.h */,
+				53BD7A8B1DF9096300E04950 /* ZDTableViewCell.m */,
+				5307C6F41DFD3B6D00EFC93B /* ZDPlayer.h */,
+				5307C6F51DFD3B6D00EFC93B /* ZDPlayer.m */,
+				53C8D6B91DEC0EE500F7060D /* 1.mp3 */,
+				5307C6F01DFD362B00EFC93B /* 2.mp3 */,
+				5307C6F21DFD364C00EFC93B /* 3.mp3 */,
+				53C8D6AB1DEBFD3B00F7060D /* Main.storyboard */,
+				53C8D6AE1DEBFD3B00F7060D /* Assets.xcassets */,
+				53C8D6B01DEBFD3B00F7060D /* LaunchScreen.storyboard */,
+				53C8D6B31DEBFD3B00F7060D /* Info.plist */,
+				53C8D6A21DEBFD3B00F7060D /* Supporting Files */,
+			);
+			path = "UIProgressView的使用";
+			sourceTree = "<group>";
+		};
+		53C8D6A21DEBFD3B00F7060D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53C8D6A31DEBFD3B00F7060D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		627B24E27199D2E785FE65EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F673E19B257E3A51A185A048 /* libPods-UIProgressView的使用.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4173DB2AA64B81E380EE3F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEE91525F685F822BAC55CFB /* Pods-UIProgressView的使用.debug.xcconfig */,
+				2234FD4133DADDBA2FB6D2D4 /* Pods-UIProgressView的使用.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C8D69E1DEBFD3B00F7060D /* UIProgressView的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C8D6B61DEBFD3B00F7060D /* Build configuration list for PBXNativeTarget "UIProgressView的使用" */;
+			buildPhases = (
+				DB74E717199D37913F1E8DBF /* [CP] Check Pods Manifest.lock */,
+				53C8D69B1DEBFD3B00F7060D /* Sources */,
+				53C8D69C1DEBFD3B00F7060D /* Frameworks */,
+				53C8D69D1DEBFD3B00F7060D /* Resources */,
+				D4C8DE63871519A455966339 /* [CP] Embed Pods Frameworks */,
+				17494C6A884A9F7402D80BEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIProgressView的使用";
+			productName = "UIProgressView的使用";
+			productReference = 53C8D69F1DEBFD3B00F7060D /* UIProgressView的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C8D6971DEBFD3B00F7060D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZD;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = zhudong;
+				TargetAttributes = {
+					53C8D69E1DEBFD3B00F7060D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3GE4G86BZ9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53C8D69A1DEBFD3B00F7060D /* Build configuration list for PBXProject "UIProgressView的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53C8D6961DEBFD3B00F7060D;
+			productRefGroup = 53C8D6A01DEBFD3B00F7060D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C8D69E1DEBFD3B00F7060D /* UIProgressView的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C8D69D1DEBFD3B00F7060D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C8D6BA1DEC0EE500F7060D /* 1.mp3 in Resources */,
+				5307C6F11DFD362B00EFC93B /* 2.mp3 in Resources */,
+				53C8D6B21DEBFD3B00F7060D /* LaunchScreen.storyboard in Resources */,
+				53C8D6AF1DEBFD3B00F7060D /* Assets.xcassets in Resources */,
+				5307C6F31DFD364C00EFC93B /* 3.mp3 in Resources */,
+				53C8D6AD1DEBFD3B00F7060D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17494C6A884A9F7402D80BEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIProgressView的使用/Pods-UIProgressView的使用-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4C8DE63871519A455966339 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UIProgressView的使用/Pods-UIProgressView的使用-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB74E717199D37913F1E8DBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C8D69B1DEBFD3B00F7060D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BD7A8C1DF9096300E04950 /* ZDTableViewCell.m in Sources */,
+				53BD7A8F1DF90A0900E04950 /* ZDTableViewController.m in Sources */,
+				53C8D6A71DEBFD3B00F7060D /* AppDelegate.m in Sources */,
+				5307C6F61DFD3B6D00EFC93B /* ZDPlayer.m in Sources */,
+				53C8D6A41DEBFD3B00F7060D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53C8D6AB1DEBFD3B00F7060D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C8D6AC1DEBFD3B00F7060D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53C8D6B01DEBFD3B00F7060D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C8D6B11DEBFD3B00F7060D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53C8D6B41DEBFD3B00F7060D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53C8D6B51DEBFD3B00F7060D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53C8D6B71DEBFD3B00F7060D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEE91525F685F822BAC55CFB /* Pods-UIProgressView的使用.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3GE4G86BZ9;
+				INFOPLIST_FILE = "UIProgressView的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.91guoxin.www.UIProgressView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		53C8D6B81DEBFD3B00F7060D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2234FD4133DADDBA2FB6D2D4 /* Pods-UIProgressView的使用.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3GE4G86BZ9;
+				INFOPLIST_FILE = "UIProgressView的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.91guoxin.www.UIProgressView---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C8D69A1DEBFD3B00F7060D /* Build configuration list for PBXProject "UIProgressView的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C8D6B41DEBFD3B00F7060D /* Debug */,
+				53C8D6B51DEBFD3B00F7060D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C8D6B61DEBFD3B00F7060D /* Build configuration list for PBXNativeTarget "UIProgressView的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C8D6B71DEBFD3B00F7060D /* Debug */,
+				53C8D6B81DEBFD3B00F7060D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C8D6971DEBFD3B00F7060D /* Project object */;
+}
