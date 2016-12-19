@@ -128,7 +128,7 @@
                 break;
         }
     }
-    if ([keyPath isEqualToString:@"loadedTimeRanges"]) {
+    else if ([keyPath isEqualToString:@"loadedTimeRanges"]) {
         NSArray *array = self.playerItem.loadedTimeRanges;
         CMTimeRange timeRange = [array.firstObject CMTimeRangeValue];
         NSTimeInterval totalBuffer = CMTimeGetSeconds(timeRange.start) + CMTimeGetSeconds(timeRange.duration);

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FEA3D175E4E1AF09C5DDF8350C391CEB6D39CE56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "FEA3D175E4E1AF09C5DDF8350C391CEB6D39CE56" : 9223372036854775807,
+    "B68B1C5B1573AEA2C8F8E4ADE6B36DA86059859B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "78E0CA00-21C9-4477-88F3-8EF2C0B29F5F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "FEA3D175E4E1AF09C5DDF8350C391CEB6D39CE56" : "ZDPlayer%E9%9F%B3%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8\/",
+    "B68B1C5B1573AEA2C8F8E4ADE6B36DA86059859B" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "UIProgressView的使用",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "UIProgressView的使用\/UIProgressView的使用.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhudong10\/ZDZhiBoTableView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B68B1C5B1573AEA2C8F8E4ADE6B36DA86059859B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhudong10\/tableView-.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FEA3D175E4E1AF09C5DDF8350C391CEB6D39CE56"
+    }
+  ]
+}
